@@ -12,10 +12,10 @@ public class Traverse {
 		
 		int initial,number_of_input;
 		
-		System.out.println("How many Element you want to Input: ");
+		System.out.print("How many Element you want to Input: ");
 		number_of_input = input.nextInt();
 		
-		System.out.println("Now Enter The "+number_of_input+" Element: ");
+		System.out.print("Now Enter The "+number_of_input+" Element: ");
 		
 		for(initial=0;initial<number_of_input;initial++) {
 			
@@ -23,7 +23,7 @@ public class Traverse {
 			
 		}
 		
-		System.out.println("Number of Element In the Array Index: ");
+		System.out.print("Number of Element In the Array Index: ");
 		
         for(initial=0;initial<number_of_input;initial++) {
 			
