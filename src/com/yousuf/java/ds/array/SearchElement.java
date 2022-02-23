@@ -15,16 +15,18 @@ public class SearchElement {
 		System.out.print("How many Element you want to Input: ");
 		number_of_input = input.nextInt();
 		int[] array = new int[number_of_input];
-		
-		System.out.print("Now Enter The "+number_of_input+" Element: ");
+		System.out.println("  ");
+		System.out.println("Now Enter The "+number_of_input+" Element.");
+		System.out.println("  ");
 		
 		for(initial=0;initial<number_of_input;initial++) {
-			
-			array[initial]=input.nextInt();
+			 
+			 System.out.print("Enter the "+(initial+1)+" element: ");
+			 array[initial]=input.nextInt();
 			
 		}
-		
-		System.out.println("Enter element to Search: ");
+		System.out.println("  ");
+		System.out.print("Enter element to Search: ");
 		
 		search = input.nextInt();
 		
@@ -34,7 +36,7 @@ public class SearchElement {
 			if(array[initial]==search) {
 				
 				System.out.println("Element found: "+search);
-				System.out.println("Element found at index: "+array[initial + 1]);
+				System.out.println("Element found at index: "+(initial + 1));
 				flag=true;
 				break;
 				
