@@ -47,21 +47,16 @@ public class Stack {
 		  }
 
 	public static void main(String[] args) {
-		Stack obj = new Stack(3);
+		Stack obj = new Stack(4);
 		
 		obj.push(2);
 		obj.push(3);
 		obj.push(4);
 		obj.push(8);
-		 System.out.println("\nAfer pushing");
+		System.out.println("\nAfer pushing");
 		obj.printStack();
 		
-		//obj.pop();
-		//obj.pop();
-	
-
-	   // System.out.println("\nAfter popping out");
-		//obj.printStack();
+		
 
 	}
 
